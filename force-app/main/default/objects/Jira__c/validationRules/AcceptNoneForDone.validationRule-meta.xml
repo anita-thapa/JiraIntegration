@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AcceptNoneForDone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(Status__c), &quot;Done&quot;),
+    OR(
+        ISPICKVAL(Status__c, &quot;To Do&quot;),
+        ISPICKVAL(Status__c, &quot;In Progress&quot;),
+        ISPICKVAL(Status__c, &quot;In QC&quot;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Cannot update the &quot;Status&quot; value from &quot;Done&quot; to any available options</errorMessage>
+</ValidationRule>

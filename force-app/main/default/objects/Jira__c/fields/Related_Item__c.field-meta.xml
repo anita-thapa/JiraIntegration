@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Related Item</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <filterItems>
+            <field>$Source.Type__c</field>
+            <operation>equals</operation>
+            <value>Epic</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Type__c</field>
+            <operation>equals</operation>
+            <value>Story</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Type__c</field>
+            <operation>equals</operation>
+            <value>Task</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Type__c</field>
+            <operation>equals</operation>
+            <value>Bug</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Jira__c</referenceTo>
+    <relationshipLabel>Jiras</relationshipLabel>
+    <relationshipName>Jiras</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

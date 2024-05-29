@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_for_story_hierarchy</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Type__c, &apos;Story&apos;),
+    OR(
+        ISPICKVAL(Related_Item__r.Type__c, &apos;Story&apos;),
+        ISPICKVAL(Related_Item__r.Type__c, &apos;Task&apos;),
+        ISPICKVAL(Related_Item__r.Type__c, &apos;Bug&apos;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Story cannot be created inside story, task or bug</errorMessage>
+</ValidationRule>
