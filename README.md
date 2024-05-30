@@ -1,18 +1,9 @@
-# Salesforce DX Project: Next Steps
+# "Jira Integration" Project
+This project involves developing a ‘Jira Integration’ app within the Salesforce environment. The app will enable seamless integration of records from issues in Jira software into Salesforce. It will calculate and visualise the total counts of to do, in progress, in qc and done statuses of each record and total days a record stays in these mentioned statuses using Salesforce analytics tools. Also, it will give the excess time required to complete a particular record i.e. the time difference between time tracking and original estimate fields present in Jira software which is further visualised. The aim is to provide Salesforce users with comprehensive insights into Jira project statuses directly within their CRM
+system.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+# Objectives
+- Develop an app in Salesforce to integrate Jira records.
+- Automatically import and update Jira records in Salesforce.
+- Calculate total counts and total days of various statuses from Jira.
+- Visualise the calculated data using Salesforce analytics tools.
