@@ -1,4 +1,5 @@
 public with sharing class JiraController {
+    
     @AuraEnabled
     public static void deleteAllJiraRecords() {
         try {
