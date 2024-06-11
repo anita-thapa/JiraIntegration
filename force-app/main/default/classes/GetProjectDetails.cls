@@ -9,7 +9,7 @@ public class GetProjectDetails {
         HttpResponse res = http.send(req);
         
         string responseBody = res.getBody();
-		//System.debug(responseBody);
+		//System.assert(false, responseBody);
         
         // Deserialize the JSON response-- yelle chai json baata ako project ko names haru ko array lai chuttaune kaam nai garirakheko ho!!! kina ki avatar ko link paxi expand wala info haru xa which is the response body info.
        

@@ -411,7 +411,7 @@
                 <identifier>RecordActual_Time_Tracking_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
+        <!-- <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
@@ -427,7 +427,7 @@
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
-        </itemInstances>
+        </itemInstances> -->
         <name>Facet-c41d3cfd-1302-4699-a99f-7756e28fcbd6</name>
         <type>Facet</type>
     </flexiPageRegions>

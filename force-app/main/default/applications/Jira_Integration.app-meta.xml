@@ -18,6 +18,25 @@
         <type>Flexipage</type>
         <pageOrSobjectType>Jira__c</pageOrSobjectType>
     </actionOverrides>
+    <!-- <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Jira_Sprint</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Jira_Sprint__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Jira_Sprint</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Jira_Sprint__c</pageOrSobjectType>
+    </actionOverrides> -->
+   
     <actionOverrides>
         <actionName>Tab</actionName>
         <content>Home</content>
@@ -86,11 +105,12 @@
         <profile>StandardAul</profile>
     </profileActionOverrides>
     <tabs>standard-home</tabs>
-    <tabs>standard-AppLauncher</tabs>
-    <tabs>standard-Event</tabs>
     <tabs>Jira__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Jira_Sprint__c</tabs>
+    <tabs>Sprint__c</tabs>
+   
     <uiType>Lightning</uiType>
     <utilityBar>Jira_Integration_UtilityBar</utilityBar>
 </CustomApplication>

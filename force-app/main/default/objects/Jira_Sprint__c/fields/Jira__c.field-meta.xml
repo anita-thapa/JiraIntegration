@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira__c</fullName>
+    <externalId>false</externalId>
+    <label>Jira</label>
+    <referenceTo>Jira__c</referenceTo>
+    <relationshipLabel>Jira_Sprints</relationshipLabel>
+    <relationshipName>Jira_Sprints</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
